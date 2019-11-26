@@ -1,0 +1,112 @@
+.leftBl {
+	display: inline-block;
+	position: relative;
+	width: 15%;
+	height: 100%;
+	background-color: #4f4f4f;
+}
+.leftBl .headLeft {
+	display: flex;
+
+    align-items: center;
+	width: 100%;
+	height: 10%;
+}
+.leftBl .headLeft > img {
+    float: left;
+    margin-left: 2%;
+
+	width: 18%
+}
+.headLeft > h3 {
+ float: left;
+ margin-left: 3%;
+    width: 50%;
+	font-size: 1.5em;
+	font-weight: bold;
+    color: white;
+}
+.headLeft > h2 {
+    margin-top: 18%;
+    float: left;
+    width: 30%;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #eb9a56;
+}
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+	margin-bottom: 0;
+	border: 1px solid rgb(136, 132, 132);
+}
+
+.content1 {
+	display: inline-block;
+	position: relative;
+	margin: 10% 10%;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.contref {
+	margin: 2px 2px;
+}
+
+.contref:hover {
+	cursor: pointer;
+}
+
+.contref > img {
+	display: inline-block;
+	position: relative;
+	top: 8px;
+	width: 30px;
+}
+
+.contref > h4 {
+	display: inline-block;
+	position: relative;
+	margin: 2px 0 0;
+	left: 5%;
+}
+
+.footerLeft {
+	display: inline-block;
+	position: relative;
+	color: #eb9a56;
+	width: 100%;
+	height: 10%;
+	margin-top: 5%;
+}
+.footerLeft1 {
+	float: left;
+	margin-left: 5%;
+}
+.footerLeft1:hover {
+	cursor: pointer;
+}
+
+.footerLeft1 > img {
+	width: 40px;
+	margin-left: 15%;
+}
+.footerLeft1 > h4 {
+	margin: 0 0;
+}
+
+.footerLeft2 {
+	float: right;
+	margin-right: 5%;
+}
+.footerLeft2:hover {
+	cursor: pointer;
+}
+
+.footerLeft2 > img {
+	width: 40px;
+	margin-left: 15%;
+}
+.footerLeft2 > h4 {
+	margin: 0 0;
+}

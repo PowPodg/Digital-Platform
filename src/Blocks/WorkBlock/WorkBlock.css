@@ -1,0 +1,116 @@
+.placeWork {
+	float: left;
+	width: 99%;
+	height: 70%;
+	overflow-y: auto;
+}
+
+.workBlock {
+	float: left;
+	width: 99%;
+	height: 105px;
+	margin-top: 0%;
+}
+
+.workBlock > button {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5%;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	outline: none;
+	font-weight: bold;
+	font-size: 1em;
+	background: rgba(211, 210, 210, 0.226);
+}
+.workBlock > button:hover {
+	outline: none;
+	background: rgba(27, 25, 25, 0.226);
+}
+.workBlock > button:focus {
+	outline: none;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+.workBlock > button > .data {
+	float: left;
+	width: 12%;
+}
+.workBlock > button > .numTask {
+	float: left;
+	margin-left: 1%;
+	width: 12%;
+}
+.workBlock > button > .status {
+    display: flex;
+    align-items: center;
+	width: 12%;
+	height: 50px;
+	margin-left: 1%;
+}
+.workBlock > button > .status > img {
+	float: left;
+}
+.workBlock > button > .status > span {
+	display: flex;
+	margin-left: 5%;
+	align-items: center;
+	height: 100%;
+	width: 70%;
+}
+
+.workBlock > button > .nameWork {
+	float: left;
+	font-size: 1em;
+	margin-left: 1%;
+	width: 19%;
+	height: 100%;
+}
+.workBlock > button > .nameWork > span {
+	float: left;
+	margin-top: 5%;
+	margin-left: 1%;
+}
+.workBlock > button > .priorityLabel {
+    float: left;
+    margin-left: 2%;
+	border: none;
+	background: #eb5757;
+	color: white;
+	border-radius: 8px;
+	width: 8%;
+	height: 30px;
+}
+.workBlock > button > .priorityLabel > span {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.workBlock > button > .numBrig {
+   display: flex;
+    margin-left: 4%;
+	width: 12%;
+	height: 80px;
+}
+.workBlock > button > .numBrig > img {
+	float: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 5%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.workBlock > button > .numBrig > span {
+	display: flex;
+	height: 100%;
+	width: 80%;
+	margin-left: 5%;
+	align-items: center;
+}
+
+.workBlock > button > .object {
+	float: left;
+	width: 11%;
+}

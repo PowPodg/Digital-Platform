@@ -1,0 +1,400 @@
+.rightBl {
+	float: right;
+
+	margin-right: 0;
+	top: 0;
+	margin: 0;
+	width: 85%;
+	height: 100%;
+	color: black;
+}
+
+.containerHeader {
+	float: left;
+	height: 32%;
+	width: 98%;
+}
+.containerHeader > hr {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	border: 1px solid rgb(196, 190, 190);
+}
+.headerRight {
+	display: flex;
+	position: relative;
+	align-items: center;
+	width: 100%;
+	height: 28%;
+	top: 0%;
+}
+.headerRight > h1 {
+	display: inline-block;
+	position: relative;
+	width: 60%;
+	height: 60%;
+	font-weight: bold;
+	margin-left: 2%;
+}
+
+.notice {
+	float: left;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 3%;
+	height: 50%;
+}
+.notice:hover {
+	cursor: pointer;
+}
+.notice > img {
+	margin-left: 0%;
+	margin-top: 15%;
+}
+
+.notice > .circles {
+	position: absolute;
+	max-width: 30px;
+	max-height: 100%;
+	margin-left: 0.5%;
+	margin-top: 1%;
+	top: 0;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.circle {
+	background: #12b6f9;
+	padding: 5px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	max-width: 10px;
+	max-height: 10px;
+}
+
+.circle__number {
+	font-size: 1rem;
+}
+
+.headerRight > .avatar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5%;
+	height: 100%;
+	margin-left: 10%;
+}
+
+.avatar > img {
+	height: 40%;
+	margin-top: 10%;
+	margin-left: 0%;
+}
+.avatar > img:hover {
+	cursor: pointer;
+}
+.right1 {
+	display: flex;
+	width: 100%;
+	height: 25%;
+}
+
+.but1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0;
+	margin-right: 0;
+	height: 100%;
+	width: 10%;
+}
+.but1 > button {
+	float: left;
+	color: #fff;
+	height: 42px;
+	width: 42px;
+	text-decoration: none;
+	user-select: none;
+	background: #dedad9;
+
+	outline: none;
+	border-radius: 10%;
+	border: none;
+}
+.but1 > button:hover {
+	background: rgb(122, 119, 119);
+}
+/* .but1 > button:active {
+	background: #3291ff;
+} */
+
+.but1 > button:focus {
+	background: #3291ff;
+}
+.but1 > button > img {
+}
+
+.right1 > .search {
+	display: flex;
+	padding-left: 5%;
+	align-items: center;
+	margin-left: 0;
+	margin-left: 0%;
+	width: 30%;
+	height: 100%;
+}
+
+.search input {
+	border: none;
+}
+
+.input {
+	float: left;
+	width: 60%;
+	height: 45px;
+	padding: 8px 0px 9px 12%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: #eee;
+	font: 15px;
+	color: #555;
+	outline: none;
+}
+.submit {
+	position: absolute;
+	margin-top: 0%;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url('img/go.png') 50% no-repeat;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.input:focus {
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.4);
+	background: #e8e8e8;
+	color: #333;
+}
+
+.submit:hover {
+	opacity: 0.8;
+}
+
+.workTasks {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.btnBlockWorktask {
+	display: flex;
+	height: 100%;
+	width: 20%;
+	padding-left: 6%;
+	align-items: center;
+}
+.btnWorktask {
+	float: left;
+	height: 45px;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 70%;
+	border-radius: 20px;
+	color: white;
+	background: linear-gradient(to bottom, #f4c7c8, #e72122);
+	opacity: 0.8;
+}
+.btnWorktask > img {
+	float: left;
+	margin-top: 2%;
+
+	height: 65%;
+}
+.btnWorktask > span {
+	float: left;
+	margin-left: 12%;
+}
+
+.btnWorktask:focus {
+	outline: none;
+}
+.btnWorktask:hover {
+	background: linear-gradient(to top, #f4c7c8, #e72122);
+}
+
+.right2 {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	height: 25%;
+	margin-left: 0%;
+}
+.btBlock {
+	height: 70%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.btBlock > button {
+	float: left;
+	margin-left: 3%;
+	background: #fbfbfb;
+	border-radius: 5%;
+	outline: none;
+	width: 12%;
+	height: 100%;
+}
+.btBlock > button>span {
+    float: left;
+    margin-left: 20%;
+   width: 80%;
+}
+
+.btBlock > button:focus {
+	border-color: #428de7;
+	border-width: 3px;
+	outline: none;
+	color: #428de7;
+}
+button:hover {
+    cursor: pointer;
+}
+.btBlock > button:nth-child(1) {
+	background: url('img/AddFilter.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(1):hover {
+	background: url('img/AddFilter1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(1):focus {
+	background: url('img/AddFilter1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+
+.btBlock > button:nth-child(2) {
+	background: url('img/overPerson.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(2):hover {
+	background: url('img/overPerson1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(2):focus {
+	background: url('img/overPerson1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+
+.btBlock > button:nth-child(3) {
+	background: url('img/serviceObjects.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(3):hover {
+	background: url('img/serviceObjects1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(3):focus {
+	background: url('img/serviceObjects1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+
+.btBlock > button:nth-child(4) {
+	background: url('img/dataService.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(4):hover {
+	background: url('img/dataService1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(4):focus {
+	background: url('img/dataService1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+
+.btBlock > button:nth-child(5) {
+	background: url('img/statusWorkTask.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(5):hover {
+	background: url('img/statusWorkTask1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(5):focus {
+	background: url('img/statusWorkTask1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+
+.btBlock > button:nth-child(6) {
+	background: url('img/execPriority.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(6):hover {
+	background: url('img/execPriority1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+.btBlock > button:nth-child(6):focus {
+	background: url('img/execPriority1.png') 50% no-repeat;
+	background-position: 5% center;
+}
+
+/* .but1 > button:active {
+	background: #3291ff;
+} */
+
+.right3 {
+	float: left;
+
+	width: 100%;
+	height: 10%;
+
+	background: #e5e5e5;
+}
+.right3:hover {
+}
+
+
+.tabHeader {
+	float: left;
+	height: 100%;
+}
+
+.tabHeader > th > span {
+	float: left;
+	width: 200px;
+}
+ .tabHeader > th:hover {
+	background: #bff7eb;
+	cursor: pointer;
+}
+.tabHeader > th > span {
+	display: inline-block;
+	margin-top: 13px;
+}
+
+.tabHeader > th::after {
+	/* margin-top: -10%; float: right; border-left:3px solid red; height:60px; */
+	content: "";
+	float: right;
+	margin-top: 0%;
+	background: #d1d1d1;
+	width: 2px;
+	height: 50px;
+}
+.tabHeader > th:nth-child(7)::after {
+	opacity: 0;
+}
+.tabHeader > th:nth-child(4) {
+	width: 300px;
+	margin-left: 0;
+}
+.tabHeader > th:nth-child(7) {
+	margin-left: 0;
+}
