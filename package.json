@@ -2,6 +2,8 @@
   "name": "sinpar-react",
   "version": "0.1.0",
   "private": true,
+  "author": "P.Pw",
+  "license": "ISC",
   "dependencies": {
     "@babel/core": "7.6.0",
     "@svgr/webpack": "4.3.2",
