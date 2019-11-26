@@ -251,16 +251,11 @@ class SecondPage extends Component {
                   width={ '370px' }
                 >
                   <GeoObject
-                    // The geometry description.
                     geometry={ {
-                      Placemark: 'London',
                       type: 'Point',
                       coordinates: [55.7, 37.7],
                     } }
-                    properties={ {
-                      hintContent: 'Собственный значок метки',
-                      balloonContent: 'Это красивая метка',
-                    } }
+                 
                     options={ {
                       iconLayout: 'default#image',
                       iconImageHref: 'img2/point1.png',
