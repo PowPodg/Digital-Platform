@@ -1,8 +1,6 @@
 ## Digital platform
 ### Example HTML-coding React application
 
-#### Available Scripts
-
 In the project directory, you can run:
 
 #### `npm start`
