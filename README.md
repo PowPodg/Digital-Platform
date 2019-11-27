@@ -14,5 +14,5 @@ https://dig-platf.web.app/     (correctly displayed in Opera and Chrome - it's l
 
 
 <p align="center">
-  <img src="https://github.com/PowPodg/Digital-Platform/tree/master/img/view.png" width="300">
+  <img src="img/view.png" width="300">
 </p>
