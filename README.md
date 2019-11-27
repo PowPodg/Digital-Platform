@@ -1,5 +1,5 @@
 ## Digital platform
-### Example HTML -coding React application
+### Example HTML-coding React application
 
 #### Available Scripts
 
