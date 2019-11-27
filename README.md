@@ -12,4 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Or link:   
 https://dig-platf.web.app/     (correctly displayed in Opera and Chrome - it's like a example 'sketch')
 
-![](https://github.com/PowPodg/Digital-Platform/tree/master/img/view.png)
+
+<p align="center">
+  <img src="https://github.com/PowPodg/Digital-Platform/tree/master/img/view.png" width="300">
+</p>
