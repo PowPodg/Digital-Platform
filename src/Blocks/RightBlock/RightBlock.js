@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
-import './RightBlock.css'
+import './RightBlock.scss'
 
 import WorkBlock from '../WorkBlock/WorkBlock'
 
 class RightBlock extends Component {
-    clickHandler =()=>{
-        alert('Test !!')
-      }
+    clickHandler = () => {
+        alert( 'Test !!' )
+    }
     render () {
         return (
             <div className="rightBl"  >
-                <div className="containerHeader" onClick ={this.props.ClickPageHandler}>
+                <div className="containerHeader" onClick={ this.props.ClickPageHandler }>
                     <div className="headerRight">
                         <h1>Рабочие задания</h1>
-                        <div className="notice" onClick ={this.clickHandler}>
+                        <div className="notice" onClick={ this.clickHandler }>
                             <img src="img/bellPr.png" alt="" />
                             <div className="circles">
                                 <div className="circle">
@@ -29,7 +29,7 @@ class RightBlock extends Component {
                     <hr />
                     <div className="right1">
                         <div className="but1">
-                            <button onClick ={this.clickHandler}><img src="img/bbt2.png" alt="" /></button>
+                            <button onClick={ this.clickHandler }><img src="img/bbt2.png" alt="" /></button>
                             <button><img src="img/bbt3.png" alt="" /></button>
                             <button><img src="img/bbt11.png" alt="" /></button>
                         </div>
@@ -46,7 +46,7 @@ class RightBlock extends Component {
                             <span>Найдено 5 рабочих заданий</span>
                         </div>
                         <div className="btnBlockWorktask">
-                            <button className="btnWorktask" onClick ={this.clickHandler}>
+                            <button className="btnWorktask" onClick={ this.clickHandler }>
                                 <img src="img/plus.png" alt="" />
                                 <span>Новое рабочее <br />задание</span>
                             </button>
@@ -55,7 +55,7 @@ class RightBlock extends Component {
                     <hr />
                     <div className="right2">
                         <div className="btBlock">
-                            <button onClick ={this.clickHandler}><span>Дополнительные<br />фильтры</span></button>
+                            <button onClick={ this.clickHandler }><span>Дополнительные<br />фильтры</span></button>
                             <button><span> Ремонтный<br />персонал</span></button>
                             <button><span>Обьекты<br />обслуживания</span></button>
                             <button><span>Дата и срок<br />обслуживания</span></button>
@@ -63,22 +63,32 @@ class RightBlock extends Component {
                             <button><span>Приоритет<br />выполнения</span></button>
                         </div>
                     </div>
-                    <table className="right3">
-                        <thead>
-                            <tr className="tabHeader">
-                                <th><span>Срок завершения</span></th>
-                                <th><span>Номер задания</span></th>
-                                <th><span>Статус задания</span></th>
-                                <th><span>Наименование работ</span></th>
-                                <th><span>Приоритет</span></th>
-                                <th><span>Бригада/исполнитель</span></th>
-                                <th><span>Обьект</span></th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <div className="right3">
+                        <div className="tabHeader">
+                            <span>Срок завершения</span>
+                        </div>
+                        <div className="tabHeader">
+                            <span>Номер задания</span>
+                        </div>
+                        <div className="tabHeader">
+                            <span>Статус задания</span>
+                        </div>
+                        <div className="tabHeader">
+                            <span>Наименование работ</span>
+                        </div>
+                        <div className="tabHeader">
+                            <span>Приоритет</span>
+                        </div>
+                        <div className="tabHeader">
+                            <span>Бригада/исполнитель</span>
+                        </div>
+                        <div className="tabHeader">
+                            <span>Обьект</span>
+                        </div>
+                    </div>
                 </div>
                 <WorkBlock
-                 SecondPageHandler={this.props.SecondPageHandler } 
+                    SecondPageHandler={ this.props.SecondPageHandler }
                 />
             </div >
         );
