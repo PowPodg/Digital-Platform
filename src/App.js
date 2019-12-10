@@ -7,7 +7,7 @@ import SecondPage from './Blocks/SecondPage/SecondPage'
 class App extends Component {
 
     state = {
-        onClose: '',
+        onClose: 'Close',
     }
 
     SecondPageHandler = () => {

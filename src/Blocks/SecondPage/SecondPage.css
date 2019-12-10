@@ -1,20 +1,22 @@
-.Open {
-	position: fixed;
-	left: 30%;
-	top: 10%;
-	margin: 0;
-	padding: 0;
+
+
+.Container .Open {	
+	display: block;
+	position: absolute;
+	top: 350px;
+	margin-left: 500px;	
 	width: 1400px;
 	height: 500px;
 	opacity: 1;
 	background: white;
-	transform: translateX(0px);
+
     transition: transform .4s ease-in;
 	z-index: 90;
 }
 
-.Close {
+.Container .Close {
 	transform: translateX(1400px);
+	opacity: 0;
 }
 
 .vertBlockLeft {
