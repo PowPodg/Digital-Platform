@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
    
 
 Or link:   
-https://dig-platf.web.app/     (correctly displayed in Opera and Chrome - it's like a example 'sketch')
+https://dig-platf.web.app/  
 
 
 <p align="center">
