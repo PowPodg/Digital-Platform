@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
    
 
 Or link:   
-https://dig-platf.web.app/  
+https://dig-platf-1b95c.web.app/ 
 
 
 <p align="center">
