@@ -15,13 +15,13 @@ class App extends Component {
     SecondPageHandler = () => {
         this.setState( {
             onClose: 'Open',
-            onCloseBoll: false
+            onCloseBool: false
         } )
     }
     ClickPageHandler = () => {
         this.setState( {
             onClose: 'Close',
-            onCloseBoll: true
+            onCloseBool: true
         } )
     }
 
