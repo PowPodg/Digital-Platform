@@ -3,21 +3,25 @@ import LeftBlock from './Blocks/LeftBlocks/LeftBlocks';
 import RightBlock from './Blocks/RightBlock/RightBlock'
 import './App.css';
 import SecondPage from './Blocks/SecondPage/SecondPage'
+import Blackout from './Components/Blackout/Blackout'
 
 class App extends Component {
 
     state = {
         onClose: 'Close',
+        onCloseBoll: true
     }
 
     SecondPageHandler = () => {
         this.setState( {
             onClose: 'Open',
+            onCloseBoll: false
         } )
     }
     ClickPageHandler = () => {
         this.setState( {
             onClose: 'Close',
+            onCloseBoll: true
         } )
     }
 
@@ -25,10 +29,14 @@ class App extends Component {
 
         return (
             <div className="Container">
+                {
+                    !this.state.onCloseBoll ? <Blackout onClick={ this.ClickPageHandler } /> : null
+                }
+
                 <LeftBlock
                     ClickPageHandler={ this.ClickPageHandler }
                 />
-                
+
                 <RightBlock
                     ClickPageHandler={ this.ClickPageHandler }
                     SecondPageHandler={ this.SecondPageHandler }
@@ -36,6 +44,7 @@ class App extends Component {
                 <SecondPage
                     onClose={ this.state.onClose }
                 />
+
             </div>
         )
     }
