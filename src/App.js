@@ -33,14 +33,12 @@ class App extends Component {
                     !this.state.onCloseBoll ? <Blackout onClick={ this.ClickPageHandler } /> : null
                 }
 
-                <LeftBlock
-                    ClickPageHandler={ this.ClickPageHandler }
-                />
+                <LeftBlock/>
 
                 <RightBlock
-                    ClickPageHandler={ this.ClickPageHandler }
                     SecondPageHandler={ this.SecondPageHandler }
                 />
+                
                 <SecondPage
                     onClose={ this.state.onClose }
                 />

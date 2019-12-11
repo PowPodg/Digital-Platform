@@ -7,7 +7,7 @@ class LeftBlocks extends Component {
 
   render () {
     return (
-      <div className="leftBl" onClick={ this.props.ClickPageHandler }>
+      <div className="leftBl">
         <div className="headLeft">
           <img src="img/Logo.png" alt="" />
           <h3>Цифровая платформа</h3>

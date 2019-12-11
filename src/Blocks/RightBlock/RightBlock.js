@@ -11,7 +11,7 @@ class RightBlock extends Component {
     render () {
         return (
             <div className="rightBl"  >
-                <div className="containerHeader" onClick={ this.props.ClickPageHandler }>
+                <div className="containerHeader">
                     <div className="headerRight">
                         <h1>Рабочие задания</h1>
                         <div className="notice" onClick={ this.clickHandler }>
