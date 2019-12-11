@@ -25,6 +25,9 @@ class App extends Component {
         } )
     }
 
+    componentDidMount() {
+        this.ClickPageHandler()
+    }
     render () {
 
         return (

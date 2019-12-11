@@ -444,7 +444,7 @@ hr {
 	top: 48%;
 	left: 0%;
 	width: 90%;
-	height: 42%;
+	height: 44%;
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -460,8 +460,9 @@ hr {
 	font-size: 1.2rem;
 }
 .vertBlockRight > .mapRight>.yandex{
-	display: inline-block;
-	position: fixed;
-	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 85%;
 } 
 
