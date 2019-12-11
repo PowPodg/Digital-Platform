@@ -30,7 +30,7 @@ class App extends Component {
         return (
             <div className="Container">
                 {
-                    !this.state.onCloseBoll ? <Blackout onClick={ this.ClickPageHandler } /> : null
+                    !this.state.onCloseBool ? <Blackout onClick={ this.ClickPageHandler } /> : null
                 }
 
                 <LeftBlock/>
