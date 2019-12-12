@@ -2,7 +2,7 @@
   "name": "sinpar-react",
   "version": "0.1.0",
   "private": true,
-  "author": "P.Pw",
+  "author": "Oleg I.",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "7.6.0",
