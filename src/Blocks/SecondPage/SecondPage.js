@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './SecondPage.css'
 import { YMaps, Map, GeoObject } from 'react-yandex-maps';
 class SecondPage extends Component {
-  clickHandler =()=>{
-    alert('Test !!')
+  clickHandler = () => {
+    alert( 'Test !!' )
   }
 
   render () {
@@ -15,7 +15,7 @@ class SecondPage extends Component {
               Рабочее задание
                     </div>
             <div className="servBtn">
-              <img src="img2/h1.png" alt=""  onClick ={this.clickHandler}/>
+              <img src="img2/h1.png" alt="" onClick={ this.clickHandler } />
               <img src="img2/h2.png" alt="" />
               <img src="img2/h3.png" alt="" />
               <div className="upDown">
@@ -33,8 +33,10 @@ class SecondPage extends Component {
           <div className="serviceLeft">
             <div className="priority">
               <span>Приоритет</span>
-              <div className="blText">
-                <span>Высокий</span>
+              <div className="blText"
+                 style={ { background: this.props.backGround} }
+              >
+                <span>{this.props.priority}</span>
               </div>
             </div>
             <div className="updated">
@@ -114,7 +116,7 @@ class SecondPage extends Component {
               </thead>
               <thead>
                 <tr>
-                  <td>Бригада номер 1</td>
+                  <td>{this.props.executor}</td>
                 </tr>
               </thead>
               <thead>
@@ -221,7 +223,7 @@ class SecondPage extends Component {
             </div>
             <hr />
             <div className="add">
-              <span onClick ={this.clickHandler}>+ добавить</span>
+              <span onClick={ this.clickHandler }>+ добавить</span>
             </div>
           </div>
           <div className="blockR1">
@@ -255,7 +257,7 @@ class SecondPage extends Component {
                       type: 'Point',
                       coordinates: [55.7, 37.7],
                     } }
-                 
+
                     options={ {
                       iconLayout: 'default#image',
                       iconImageHref: 'img2/point1.png',

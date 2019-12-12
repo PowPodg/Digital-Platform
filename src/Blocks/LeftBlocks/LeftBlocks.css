@@ -5,52 +5,57 @@
 	height: 100%;
 	background-color: #4f4f4f;
 }
-.leftBl .headLeft {
+.leftBl > .headLeft {
 	display: flex;
 
-    align-items: center;
+	align-items: center;
 	width: 100%;
 	height: 10%;
 }
-.leftBl .headLeft > img {
-    float: left;
-    margin-left: 2%;
+.headLeft > img {
+	float: left;
+	margin-left: 2%;
 
-	width: 18%
+	width: 18%;
 }
 .headLeft > h3 {
- float: left;
- margin-left: 3%;
-    width: 50%;
-	font-size:  1.5em;
+	float: left;
+	margin-left: 3%;
+	width: 50%;
+	font-size: 1.5em;
 	font-weight: bold;
-    color: white;
+	color: white;
 }
 .headLeft > h2 {
-    margin-top: 18%;
-    float: left;
-    width: 30%;
+	margin-top: 18%;
+	float: left;
+	width: 30%;
 	font-size: 1.5em;
 	font-weight: bold;
 	color: #eb9a56;
 }
 hr {
-    margin-left: 5%;
-    margin-right: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 0;
 	border: 1px solid rgb(136, 132, 132);
 }
 
-.content1 {
-	display: inline-block;
-	position: relative;
-	margin: 10% 10%;
-	font-size: 1.1em;
+.leftBl > .content1 {
+	float: left;
+	width: 90%;
+	margin-top: 10%;
+	padding-left: 10%;
+
 	font-weight: bold;
 }
 
 .contref {
-	margin: 2px 2px;
+	display: inline-block;
+	width: 120%;
+	margin-top: 3%;
+	font-size: 1.1em;
+	white-space: nowrap;
 }
 
 .contref:hover {
@@ -58,30 +63,29 @@ hr {
 }
 
 .contref > img {
-	display: inline-block;
-	position: relative;
-	top: 8px;
+	float: left;
+
 	width: 30px;
 }
 
 .contref > h4 {
-	display: inline-block;
-	position: relative;
-	margin: 2px 0 0;
-	left: 5%;
+	float: left;
+	margin: 0 0 0 3%;
+	white-space: nowrap;
 }
 
 .footerLeft {
-	display: inline-block;
-	position: relative;
+	display: flex;
+
 	color: #eb9a56;
 	width: 100%;
 	height: 10%;
-	margin-top: 5%;
+	margin-top: 15%;
 }
 .footerLeft1 {
 	float: left;
-	margin-left: 5%;
+	margin-left: 8%;
+	width: 30%;
 }
 .footerLeft1:hover {
 	cursor: pointer;
@@ -89,7 +93,7 @@ hr {
 
 .footerLeft1 > img {
 	width: 40px;
-	margin-left: 15%;
+	margin-left: 20%;
 }
 .footerLeft1 > h4 {
 	margin: 0 0;
@@ -97,7 +101,8 @@ hr {
 
 .footerLeft2 {
 	float: right;
-	margin-right: 5%;
+	width: 30%;
+	margin-left: 15%;
 }
 .footerLeft2:hover {
 	cursor: pointer;

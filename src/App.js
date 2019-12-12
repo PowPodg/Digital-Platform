@@ -9,15 +9,21 @@ class App extends Component {
 
     state = {
         onClose: 'Close',
-        onCloseBoll: true
+        onCloseBoll: true,
+        background: '',
+        priority:'',
+        executor: ''
     }
 
-    SecondPageHandler = () => {
+    SecondPageHandler = (paramSecPage) => {
         this.setState( {
             onClose: 'Open',
-            onCloseBool: false
+            onCloseBool: false,
+            background: paramSecPage.background,
+            priority: paramSecPage.priority,
+            executor: paramSecPage.executor
         } )
-    }
+     }
     ClickPageHandler = () => {
         this.setState( {
             onClose: 'Close',
@@ -39,11 +45,14 @@ class App extends Component {
                 <LeftBlock/>
 
                 <RightBlock
-                    SecondPageHandler={ this.SecondPageHandler }
+                    SecondPageHandler={ (paramSecPage)=>{this.SecondPageHandler(paramSecPage)} }
                 />
                 
                 <SecondPage
                     onClose={ this.state.onClose }
+                    backGround = {this.state.background}
+                    priority = {this.state.priority}
+                    executor = {this.state.executor}
                 />
 
             </div>

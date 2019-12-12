@@ -88,7 +88,7 @@ class RightBlock extends Component {
                     </div>
                 </div>
                 <WorkBlock
-                    SecondPageHandler={ this.props.SecondPageHandler }
+                    SecondPageHandler={(paramSecPage)=>{this.props.SecondPageHandler(paramSecPage)} }
                 />
             </div >
         );
