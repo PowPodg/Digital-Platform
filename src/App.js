@@ -20,6 +20,7 @@ class App extends Component {
             onClose: 'Open',
             onCloseBool: false,
             background: paramSecPage.background,
+            nameWork: paramSecPage.nameWork,
             priority: paramSecPage.priority,
             executor: paramSecPage.executor
         } )
@@ -51,6 +52,7 @@ class App extends Component {
                 <SecondPage
                     onClose={ this.state.onClose }
                     backGround = {this.state.background}
+                    nameWork =  {this.state.nameWork}
                     priority = {this.state.priority}
                     executor = {this.state.executor}
                 />

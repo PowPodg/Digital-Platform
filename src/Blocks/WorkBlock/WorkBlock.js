@@ -104,6 +104,7 @@ class WorkBlock extends Component {
         return params.map( ( param, i ) => {
             let par = {
                 background: param.background,
+                nameWork: param.nameWork,
                 priority: param.priority,
                 executor: param.executor
             }

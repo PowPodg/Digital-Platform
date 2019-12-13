@@ -44,7 +44,7 @@ class SecondPage extends Component {
             </div>
           </div>
           <div className="nameWork">
-            <span>Течь трубы в здании - устранить</span>
+            <span>{this.props.nameWork}</span>
           </div>
           <div className="tablParams">
             <table>
